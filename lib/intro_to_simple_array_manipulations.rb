@@ -51,3 +51,8 @@ private_colleges_in_newyork = ["New York University", ["Manhattan School of Musi
 def using_flatten(private_colleges_in_newyork)
   private_colleges_in_newyork.flatten
 end
+
+instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
+def using_delete(instructors, "Steven")
+  instructors.delete("Steven")
+end
